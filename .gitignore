@@ -1,0 +1,60 @@
+# Kotlin Compose Desktop .gitignore
+# Made with ❤️ in India 🇮🇳
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Kotlin
+*.kotlin_module
+*.kotlin_metadata
+*.kotlin_builtins
+
+# Compose Desktop
+compose.desktop/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows
+*.exe
+*.msi
+*.dmg
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Application data
+appdata/
+userdata/
+
+# Keep important files
+!README.md
+!RELEASE_NOTES.md
+!docs/
+!build_skyfiles.bat
+!build_skyfiles.ps1
+!INSTALLATION_GUIDE.md
